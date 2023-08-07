@@ -5,65 +5,87 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Web document</title>
-        <link rel="shortcut icon" href="img/Rectangle9.png" type="image/x-icon">
+        <link rel="shortcut icon" href="img/rectangle.png" type="image/x-icon">
     </head>
-    <body>
-        <main>
-            <section>
-                <nav class="menu">
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Product</a></li>
-                      <li><a href="#">Pricing</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="#"><img src="img/ant-design_twitter-outlined.png" alt="twitter"></a></li>
-                      <li><a href="#"><img src="img/ant-design_facebook-filled.png" alt="facebook"></a></li>
-                      <li><a href="#"><img src="img/ant-design_linkedin-filled.png" alt="linkedin"></a></li>
-                    </ul>
-                  </nav>
-                <h3>Figma Land</h3>
-                <h1>The best products start wiht Figma</h1>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-                <button>Try For Free</button>
-                <img src="img/rectangle9.png" width="1775.77" height="930" alt= "rectangle9">
-            </section>
-            <section>
-              <div>
-                <h2>Features</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-              </div>
-              <div>
-                <div>
-                  <img src="img/mdi_drawing.png" width="61" height="61" alt="mdi_drawing">
-                  <h3>OpenType features Variable fonts</h3>
-                  <p>Slate helps you see how many more days you need to work to reach your financial goal</p>
-                </div>
-                <div>
-                  <img src="img/mdi_draw.png" width="56" height="56" alt="mdi_draw">
-                  <h3>Design with real data</h3>
-                  <p>Slate helps you see how many more days you need to work to reach your financial goal</p>
-                </div>
-                <div>
-                  <img src="img/mdi_brush.png" width="61" height="61" alt="mdi_brush">
-                  <h3>Fastest way to take action</h3>
-                  <p>Slate helps you see how many more days you need to work to reach your financial goal</p>
-                </div>
-              </div>
-                <a href="#"><img src="img/@video_screen.png" width="1177.34" height="658.3" alt="video_screen"></a>
-            </section>
-            <section>
-              <div>
-                <h2>Fastest way to organize</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-                <button>Try For Free</button>
-              </div>
-              <div>
-                <img src="img/screen_mask.png" width="481.42" height="300.86" alt="screen_mask">
-              </div>
-            </section>
-        </main>
+    <body>   
+      <header class="hero-section">
+        <nav class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="social-links">
+              <li><a href="#"><img src="img/ant-design_twitter-outlined.png" alt="twitter"></a></li>
+              <li><a href="#"><img src="img/ant-design_facebook-filled.png" alt="facebook"></a></li>
+              <li><a href="#"><img src="img/ant-design_linkedin-filled.png" alt="linkedin"></a></li>
+            </ul>
+          </nav>
+        <h3 class="hero-figma_land">Figma Land</h3>
+        <h1 class="hero-summery">The best products start wiht Figma</h1>
+        <p class="hero-summery-text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <button class="hero-button">Try For Free</button>
+        <img class="hero-button-img" src="img/rectangle.png" width="1775.77" height="930" alt= "rectangle9">
+      </header>
+      <main>
+        <section class="features-section">
+          <div>
+            <h2 class="features-summery">Features</h2>
+            <p class="features-summery-text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+          </div>
+          <div class="feature-items">
+            <article>
+              <img class="feature-item-img" src="img/mdi_drawing.png" width="61" height="61" alt="mdi_drawing">
+              <h3 class="feature-item">OpenType features Variable fonts</h3>
+              <p class="feature-item-text">Slate helps you see how many more days you need to work to reach your financial goal</p>
+            </article>
+            <article>
+              <img class="feature-item_img" src="img/mdi_draw.png" width="61" height="61" alt="mdi_draw">
+              <h3 class="feature-item">Design with real data</h3>
+              <p class="feature-item-text">Slate helps you see how many more days you need to work to reach your financial goal</p>
+            </article>
+            <article>
+              <img class="feature-item_img" src="img/mdi_brush.png" width="61" height="61" alt="mdi_brush">
+              <h3 class="feature-item">Fastest way to take action</h3>
+              <p class="feature-item-text">Slate helps you see how many more days you need to work to reach your financial goal</p>
+            </article>
+            <a class="video-screen" href="#"><img src="img/video_screen.png" width="1177.34" height="658.3" alt="video-screen"></a>
+          </div>  
+          </section>
+        <section class="organize-section">
+          <div>
+            <h2 class="organize-summery">Fastest way to organize</h2>
+            <h4 class="organize-text">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            <button class="organize-button">Try For Free</button>
+          </div>
+          <div class="organize-screen">
+            <img class="organize-screen-img"src="img/screen_mask.png" width="481.42" height="300.86" alt="screen_mask">
+            <img class="organize-screen-background-img"src="img/screen-background.png" width="481.42" height="300.86" alt="screen-background">
+            <img class="organize-screen-grip-img"src="img/grip.png" alt="screen-grip">
+            <img class="organize-screen-base-img"src="img/base.png" alt="screen-base">
+            <img class="organize-screen-base-bottom-img"src="img/base-bottom.png" alt="base-bottom">
+          </div>
+        </section>
+        <section class="get-info">
+          <img class="get-info-newsletter-ing"src="img/undraw_newsletter.png" width="481.42" height="300.86" alt="undraw_newsletter">
+          <div class="get-info-text">
+            <p class="get-info-text">At your fingertips</p>
+            <h2 class="get-info-summery">Lightning fast prototyping</h2>
+            <form class="get-info-form" action="#">
+              <legend class="get-info-from-summery">Subscribe to our Newsletter</legend>
+              <legend class="get-info-from-text">Available exclusivery on Figmaland</legend>
+              <input class="get-info-form-input" type="text" name="your-email" placeholder="Your Email" required>
+              <button class="get-info-form-button" type="submit">Subscribe</button>
+            </form> 
+          </div>
+        </section>
+        
+      </main>
+
+      <footer>
+
+      </footer>
     </body>
 </html>
